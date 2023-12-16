@@ -1,4 +1,4 @@
-# trackerslist
+# trackerslist 2023-12-16
 
 - https://ngosang.github.io/trackerslist/trackers_best.txt
 - https://ngosang.github.io/trackerslist/trackers_all.txt
