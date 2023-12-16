@@ -1,3 +1,22 @@
 # trackerslist
 
--[] https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_ip.txt
+- https://ngosang.github.io/trackerslist/trackers_best.txt
+- https://ngosang.github.io/trackerslist/trackers_all.txt
+- https://ngosang.github.io/trackerslist/trackers_all_udp.txt
+- https://ngosang.github.io/trackerslist/trackers_all_http.txt
+- https://ngosang.github.io/trackerslist/trackers_all_https.txt
+- https://ngosang.github.io/trackerslist/trackers_all_ws.txt
+- https://ngosang.github.io/trackerslist/trackers_best_ip.txt
+- https://ngosang.github.io/trackerslist/trackers_all_ip.txt
+- https://gitea.com/XIU2/TrackersListCollection/raw/branch/master/best.txt
+- https://gitea.com/XIU2/TrackersListCollection/raw/branch/master/all.txt
+- https://gitea.com/XIU2/TrackersListCollection/raw/branch/master/http.txt
+- https://at.raxianch.moe/AT_best.txt
+- https://at.raxianch.moe/AT_all.txt
+- https://at.raxianch.moe/AT_all_udp.txt
+- https://at.raxianch.moe/AT_all_http.txt
+- https://at.raxianch.moe/AT_all_https.txt
+- https://at.raxianch.moe/AT_all_ws.txt
+- https://at.raxianch.moe/AT_best_ip.txt
+- https://at.raxianch.moe/AT_all_ip.txt
+- https://at.raxianch.moe/AT_bad.txt
