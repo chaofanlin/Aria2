@@ -3,15 +3,15 @@ import time,random,shutil
 import wget
 
 dir = os.path.dirname(os.path.abspath(__file__))
-tmp = dir + "\\tmp\\"
-input_file = dir + "\\trackers.link"
-output_file = dir + "\\trackerslist.txt"
+tmp = dir + "/tmp/"
+input_file = dir + "/trackers.link"
+output_file = dir + "/trackerslist.txt"
 
 def merge(_tmp,_output_file):
 	filelist = os.listdir(_tmp)
 	with open(_output_file,'w',encoding='utf-8') as f:
 		for filename in filelist:
-			filepath = _tmp + "\\" + filename
+			filepath = _tmp + "/" + filename
 			for line in open(filepath):
 				f.writelines(line)
 			f.write('\n')
