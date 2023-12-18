@@ -26,7 +26,7 @@ def download_file(_tmp,_input_file):
 
 	for links in links:
 		#print(links)
-		wget.download(links,out=_dirpath)		
+		wget.download(links,out=_tmp)		
 		time.sleep(random.random()*60)
 
 def Remove_duplicates(_file):
