@@ -3,15 +3,15 @@ import time,random,shutil
 import wget
 
 dir = os.path.dirname(os.path.abspath(__file__))
-tmp = dir + "/tmp/"
-input_file = dir + "/trackers.link"
-output_file = dir + "/trackerslist.txt"
+tmp = dir + "\\.tmp\\"
+input_file = dir + "\\trackers.link"
+output_file = dir + "\\trackerslist.txt"
 
 def merge(_tmp,_output_file):
 	filelist = os.listdir(_tmp)
 	with open(_output_file,'w',encoding='utf-8') as f:
 		for filename in filelist:
-			filepath = _tmp + "/" + filename
+			filepath = _tmp + "\\" + filename
 			for line in open(filepath):
 				f.writelines(line)
 			f.write('\n')
@@ -26,8 +26,10 @@ def download_file(_tmp,_input_file):
 
 	for links in links:
 		#print(links)
-		wget.download(links,out=_tmp)		
-		time.sleep(random.random()*60)
+		wget.download(links,out=_tmp)
+		t=random.randint(1,60)	
+		print("\nWait for "+str(t)+" sec!")
+		time.sleep(t)
 
 def Remove_duplicates(_file):
 	file = open(_file,"r")
@@ -39,6 +41,6 @@ def Remove_duplicates(_file):
 	newfile.writelines(lines)
 	newfile.close()
 
-download_file(tmp,input_file)
+#download_file(tmp,input_file)
 merge(tmp,output_file)
 Remove_duplicates(output_file)
