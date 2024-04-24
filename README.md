@@ -1,4 +1,4 @@
-# trackerslist list 更新：2024-02-17
+# trackerslist list 更新：2024-04-24
 
 https://ngosang.github.io/trackerslist/trackers_best.txt
 
