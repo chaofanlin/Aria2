@@ -4,7 +4,7 @@ export PATH="/system/bin"
 #当前路径
 DIR=$(pwd)
 
-URL="https://raw.kkgithub.com/chaofanlin/trackerslist/main/trackerslist"
+URL="https://raw.kkgithub.com/chaofanlin/Aria2/main/trackerslist"
 DL_TRACKERSLIST="$DIR/trackerslist"
 
 CHECK_CORE_FILE() {
