@@ -6,7 +6,7 @@ dir = os.path.dirname(os.path.abspath(__file__))
 config = os.path.dirname(dir) + "\\aria2.conf"
 tmp = dir + "\\.tmp\\"
 input_file = dir + "\\trackers.link"
-output_file = dir + "\\trackerslist.txt"
+output_file = dir + "\\trackerslist"
 
 def merge(_tmp,_output_file):
 	filelist = os.listdir(_tmp)
