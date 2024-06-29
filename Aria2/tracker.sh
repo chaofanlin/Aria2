@@ -5,7 +5,7 @@ export PATH="/system/bin"
 DIR=$(pwd)
 
 URL="https://raw.kkgithub.com/chaofanlin/trackerslist/main/trackerslist"
-DL_TRACKERSLIST="$DOWNLOAN_PATH/trackerslist"
+DL_TRACKERSLIST="$DIR/trackerslist"
 
 CHECK_CORE_FILE() {
 	CORE_FILE="$(pwd)/main.sh"
@@ -30,6 +30,7 @@ Get_tracker() {
 	check_download_path
 	yellow "[*] 清除旧 trackerslist 文件..."
 	rm -f ${DL_TRACKERSLIST}
+	#rm -f ${TRACKERSLIST}
 	yellow "[*] 启动 Aria2 进行下载..."
 	${aria2_path} --conf-path="${aria2_conf}" >/dev/null 2>&1 &
 	${aria2_path} -c "${URL}" --check-certificate=false
